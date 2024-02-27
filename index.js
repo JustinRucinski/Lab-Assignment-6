@@ -1,6 +1,6 @@
  window.onload = function() {
     ScrollReveal().reveal('.header', {delay:50,});
-    ScrollReveal().reveal('.image_1', {delay:500, distance: '0px', opacity: .05, duration: 700});
+    ScrollReveal().reveal('.image_1', {delay:500, distance: '0px', opacity: .05, duration: 1000});
     ScrollReveal().reveal('.image_2', {delay:500, distance: '500px', origin: 'right', easing: 'steps(5)', duration: 800});
     ScrollReveal().reveal('.image_3', {delay:500, distance: '500px', origin: 'left', easing: 'ease-in', duration: 900});
     ScrollReveal().reveal('.image_4', {delay:100, distance: '500px', origin: 'top', rotate: {x: 20, z: 20}});
